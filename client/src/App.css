@@ -1,0 +1,88 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.container{
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  border: 1px solid #eee;
+}
+  
+
+.messages-container{
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  padding: 20px;
+  flex-grow: 1;
+  border-bottom: 1px solid #eee;
+}
+
+.input-container{
+width: 100%;
+padding: 10px;
+display: flex;
+}
+.input-container #message-input{
+  flex-grow: 1;
+  height: 100%;
+  line-height: 14px;
+  font-size: 14px;
+  font-family: tahoma;
+  width: 100%;
+  resize: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  overflow: hidden;
+  background-color: #F2F3F5;
+  border: none;
+  outline: none;
+}
+.send-button{
+margin: auto 10px;
+height: 34px;
+background-color: dodgerblue;
+padding: 5px 15px;
+color: white;
+font-weight: bold;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+.message{
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin-bottom: 1px;
+  max-width: 50%;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.message::after{
+  clear: both;
+}
+
+.me{
+  background-color: dodgerblue;
+  float: right;
+  color: white;
+}
+
+.sally{
+  background-color: #eee;
+  float: left;
+  color: black;
+}
+.empty-part{
+  flex-grow: 1;
+}
+.message pre{
+  font-family:inherit;
+  
+}
