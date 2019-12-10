@@ -11,5 +11,10 @@ to run app on local.
 3- npm install.   
 to downlaod node modules.
   
-4- npm run dev.  
+4- move to client directory -> cd client
+  
+5- npm install.   
+to downlaod node modules.
+
+6- npm run dev.  
 to run the server.
