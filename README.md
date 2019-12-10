@@ -8,8 +8,8 @@ to run app on local.
   
 2- go to app directory and run terminal  
   
-3- npm install. 
+3- npm install.   
 to downlaod node modules.
   
-3- npm run dev.
+4- npm run dev.  
 to run the server.
